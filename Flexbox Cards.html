@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Cards Goa</title>
+    <style>
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: flex-start;
+        }
+        .card {
+          flex: 0 0 200px;
+          margin: 10px;
+          border: 1px solid #ccc;
+          box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        } 
+        .card img {
+          max-width: 100%;
+        }
+        .card .text {
+          padding: 0 20px 20px;
+        }
+        .card .text > button {
+          background: gray;
+          border: 0;
+          color: white;
+          padding: 10px;
+          width: 100%;
+          }
+      </style>
+</head>
+<body>
+    <main class="cards">
+        <article class="card">
+          <img src="https://assets.serenity.co.uk/47000-47999/47576/996x492.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Morjim & Ashvem </h3>
+            <p>These wild, picturesque expanses can be found in the far north of Goa, equipped with a handful of trendy beach bars and shacks, in addition to its long stretch of sand and gentle, lapping water.</p>
+            <button>Here's why</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://assets.serenity.co.uk/47000-47999/47829/996x492.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Anjuna & Vagator</h3>
+            <p>Anjuna is perhaps best known for its Wednesday Flea Market, but head towards the ocean and you’ll find a small number of cosy and charming curves of sand to relax upon.</p>
+            <button>Here's how</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://assets.serenity.co.uk/47000-47999/47859/996x492.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Candolim & Calangute</h3>
+            <p>Candolim and Calangute are extremely popular with British tourists on Goa holidays, descending here for the long stretches of golden sand that present one of the most inviting beaches in Goa</p>
+            <button>Read more</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://assets.serenity.co.uk/38000-38999/38476/996x492.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Sinquerim</h3>
+            <p>Presenting a prime example of Goa at its most relaxed, Sinquerim is a quiet and peaceful place to laze on the sand during your holiday to Goa. The beach features just a handful of beach shacks, while at the southern end of the beach you can even discover some history.</p>
+            <button>Just do it...</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://assets.serenity.co.uk/58000-58999/58040/996x492.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Arossim</h3>
+            <p>The quiet and quaint resort of Arossim boasts a beautiful beach, defined by a long and wide stretch of powder-white sand and a scattering of colourful beach shacks - the perfect place from which to enjoy the stunning sunset.</p>
+            <button>Here's why</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://assets.serenity.co.uk/37000-37999/37928/996x492.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Mobor</h3>
+            <p>Tucked down in South Goa and largely reflecting the chilled vibe that accompanies this region of the state, Mobor is the classic laid-back hangout for those seeking a Goa holiday with a slow pace.</p>
+            <button>Stop here</button>
+          </div>
+        </article>
+      </main>
+      <footer>
+        <a href="https://www.instagram.com/sachin_gadge_/" target="_blank" class="insta">Sachin_Gadge_</a>
+      </footer>
+</body>
+</html>
