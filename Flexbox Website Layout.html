@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Website Layout Examples </title>
+    <style>
+       
+      
+        body {
+          padding: 2em;
+        }
+  
+        .headerContainer {
+          display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background-color: rgb(13, 12, 12);
+          font-weight: bold;
+          color: aliceblue;
+          padding: 10px;
+          text-decoration: underline;
+        }
+        .footerContainer {
+          display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background-color: rgb(8, 9, 8);
+          color: aliceblue;
+          font-weight: bold;
+          padding: 10px;
+        }
+        .mainContainer {
+          display: flex;
+          flex-flow: row wrap;
+          font-weight: bold;
+          text-align: center;
+        }
+        .mainContainerItem {
+          text-align: left;
+          background: rgb(1, 48, 63);
+        }
+        article {
+          padding: 10px;
+          margin: 10px;
+          background: rgb(180, 237, 237);
+        }
+  
+        .sideBarLeftItem {
+            
+            background: rgb(196, 218, 218);
+        }
+  
+        .sideBarRightItem {
+            background: rgb(196, 218, 218);
+        }
+        .sideBarItem {
+          flex: 1 0 0;
+          border: 1px solid green;
+        }
+        .mainContainerItem {
+          flex: 3 0px;
+        }
+        .sideBarLeftItem {
+          order: 1;
+        }
+        .mainContainerItem {
+          order: 2;
+        }
+        .sideBarRightItem {
+          order: 3;
+        }
+      </style>
+</head>
+<body>
+    <header class="headerContainer">INVESTOPEDIA- ACADEMY</header>
+    <div class="mainContainer">
+      <section class="mainContainerItem">
+        <article>
+          <h2>POPULAR COURSES: </h2>
+          <u>
+            <li>BECOME A DAY TRADER</li>
+            <li>INVESTING FOR BEGINNERS</li> 
+            <li>TRADING FOR BEGINNERS</li>
+            <li>TECHNICAL ANALYSIS</li>
+            <li>FINANCIAL MODELING</li>
+          </u>
+        </article>
+        <article>
+          <h2>Bitcoin</h2>
+          <p>
+            Bitcoin (₿) is a decentralized digital currency, without a central
+            bank or single administrator, that can be sent from user to user on
+            the peer-to-peer bitcoin network without the need for
+            intermediaries. Transactions are verified by network nodes through
+            cryptography and recorded in a public distributed ledger called a
+            blockchain. The cryptocurrency was invented in 2008 by an unknown
+            person or group of people using the name Satoshi Nakamoto. The
+            currency began use in 2009 when its implementation was released as
+            open-source software.
+          </p>
+        </article>
+        <article>
+          <h2>Ethereum</h2>
+          <p>
+            Ethereum is a decentralized, open-source blockchain with smart
+            contract functionality. Ether (ETH or Ξ) is the native
+            cryptocurrency of the platform, which, after Bitcoin, is the largest
+            cryptocurrency by market capitalisation.Ethereum is the most
+            actively used blockchain.
+          </p>
+        </article>
+      </section>
+      <sidebar class="sideBarItem sideBarLeftItem"> <h4>For more <Strong> Details</Strong>, Please click on given tag bellow.</h4>
+        <hr>
+      <details>
+       
+        
+        <p> <strong>The</strong> The goal of blockchain is to allow digital information to be recorded and distributed, but not edited. In this way, a blockchain is the foundation for immutable ledgers, or records of transactions that cannot be altered, deleted, or destroyed. This is why blockchains are also known as a distributed ledger technology (DLT).</p>
+       
+
+      </details>  
+      
+      <br><br>
+      <hr>
+      <h3>Why students choose Investopedia Academy:</h3>
+      <ul>
+        <li>Access courses anytime, anywhere you have an internet connection – for life.
+        </li>
+        <li>Work at any pace - no need to worry about falling behind if life gets busy. Set your own schedule and review modules as often as you like.
+        </li>
+        <li>Learn from top experts in their field who have spent over ten years mastering the tools and tricks of the trade.
+        </li>
+        <li>Enjoy your purchase risk-free with our 30-day money-back guarantee.
+        </li>
+      </ul>
+      <hr>
+      <h3>Contact On</h3><br>
+      
+      <a href="https://www.instagram.com/sachin_gadge_/" target="_blank" class="insta">Sachin_Gadge_</a>
+      </sidebar>
+      
+      <sidebar class="sideBarItem sideBarRightItem"> <h4>Hurry! Limited seats available , Choose your courses by registering yourself from given link Below.</h4> 
+        
+    <a href="https://academy.investopedia.com/?aca_ref=header_home_link_1" target="_blank">Click Here to select the courses.</a> 
+    <br> <br>  <hr>
+    <h3>ABOUT US</h3>
+    
+    <p>We believe that finance and investing don’t have to be complicated. At Investopedia Academy, we empower learners of all backgrounds and experience levels to make smarter financial decisions through actionable online education.</p>
+
+        <a href="https://academy.investopedia.com/" target="_blank">www.investopedia.com/</a>
+    <hr>
+    <h3>ABOUT OUR EXPERTS</h3>
+    <p>Our courses are taught by seasoned industry veterans with years of market experience - who have been handpicked by the leading authority in financial education. Our accomplished course instructors have weathered the ups and downs of countless market cycles and have mastered the tips and tricks you need to succeed.</p>
+</sidebar>
+    </div>
+    <footer class="footerContainer">Copyright © 2022, Investopedia Academy. </footer>
+</body>
+</html>
